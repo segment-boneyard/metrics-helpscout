@@ -78,10 +78,7 @@ var geckoboard = require('geckoboard')('api-key');
 Metrics()
   .every('10m', helpscout('apiKey', 'mailbox-id'))
   .use(function (metrics) {
-    metrics.on('helpscout tickets modified avg', function (val) {
-        var widget = geckoboard('23213-2323123-123123-213123').number;
-        widget(val);
-    });
+    metrics.on('helpscout tickets modified avg', geckoboard('widget-id').number);
 });
 ```
 
