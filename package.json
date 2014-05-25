@@ -1,11 +1,10 @@
 {
-  "name": "dashboards-helpscout",
-  "version": "0.2.0",
-  "lib": "./lib",
-  "repository": "git://github.com/segmentio/dashboards-helpscout.git",
-  "description": "Helpscout plugin for segmentio/dashboards",
+  "name": "metrics-helpscout",
+  "version": "0.0.1",
+  "repository": "git://github.com/segmentio/metrics-helpscout.git",
+  "description": "Helpscout plugin for segmentio/metrics",
   "keywords": [
-    "dashboards",
+    "metrics",
     "helpscout",
     "API"
   ],
