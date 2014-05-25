@@ -9,7 +9,7 @@ Use this plugin to visualize your active ticket count, and who is behind on thei
 
 ## Installation
 
-    $ npm install metrics-helpscout
+    $ npm install metrics-helpscout 
 
 ## Example
 
